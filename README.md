@@ -3,7 +3,7 @@
 A comprehensive, responsive financial dashboard built to demonstrate clean state management, intuitive UX, and professional data visualization. This project was developed as a technical assessment to showcase modern frontend engineering patterns.
 
 ## 🚀 Live Demo
-**[LINK HERE]**
+**[(https://finance-dashboard-five-iota.vercel.app/)]**
 
 ---
 
