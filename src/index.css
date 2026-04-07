@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+:root.dark {
+  --border-color: rgba(0, 0, 0, 0.1);
+  --card-bg: rgba(0, 0, 0, 0.15);
+  --app-bg-image:
+    linear-gradient(rgba(10, 10, 20, 0.8), rgba(10, 10, 20, 0.9)),
+    url("/src/assets/bg.png");
+  --highlight: #0000009c;
+}
+:root {
+  --transition: all 200ms ease;
+  --radius-card: 16px;
+  --radius-badge: 8px;
+  --radius-btn: 10px;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  --color-primary: #909ee0;
+  --text-primary: #909ee0;
+  --text-secondary: #969cb2;
+  --text-muted: #9aa5b4;
+  --border-color: rgb(255, 255, 255, 0.4);
+  --card-bg: rgba(255, 255, 255, 0.25);
+  --sidebar-width: 1px;
+  --app-bg-image: url("/src/assets/bg.png");
+  --highlight: #ffffffc1;
+  --color-balance: #b68ff9e4;
+  --color-income: #86cda0db;
+  --color-expense: #fb9e9ed9;
+  --color-savings: #7fc5ffb3;
+  --color-up: #6ebb62b7;
+  --color-down: #cd5353bc;
+}
+.app-bg {
+  min-height: 100vh;
+  background-image: var(--app-bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", "Poppins", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.036);
+  border-radius: 4px;
+}
