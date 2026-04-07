@@ -70,7 +70,10 @@ export function AppProvider({ children }) {
   const mergedInitial = parsed
     ? {
         ...parsed,
-        transactions: rawTransactions,
+        transactions:
+          parsed.transactions?.length > 0
+            ? parsed.transactions
+            : rawTransactions,
       }
     : initialState;
 

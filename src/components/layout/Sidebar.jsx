@@ -7,8 +7,8 @@ import {
 } from "lucide-react";
 import { useApp } from "../../context/AppContext";
 import Card from "../ui/Card";
-import logo from "../../assets/logo.png";
-import pf from "../../assets/pf.png";
+import logo from "/logo.webp";
+import pf from "/pf.webp";
 
 const navItems = [
   { id: "dashboard", label: "Dashboard", icon: LayoutDashboard },
@@ -55,7 +55,7 @@ const Sidebar = ({ activePage, setActivePage, isOpen }) => {
             <img
               src={pf}
               alt="profile"
-              className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
+              className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover opacity-80"
             />
             <div className="text-left">
               <p className="text-2xl sm:text-3xl font-medium leading-tight text-[var(--text-primary)]">
