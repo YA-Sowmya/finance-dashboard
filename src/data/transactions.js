@@ -1412,6 +1412,33 @@ const rawData = [
     month: 5,
     status: "completed",
   },
+    {
+    id: 158,
+    date: "2026-06-06",
+    amount: 7500,
+    category: "Utilities & Bills",
+    type: "expense",
+    month: 6,
+    status: "completed",
+  },
+  {
+    id: 159,
+    date: "2026-06-07",
+    amount: 25000,
+    category: "Freelance",
+    type: "income",
+    month: 6,
+    status: "completed",
+  },
+  {
+    id: 160,
+    date: "2026-06-09",
+    amount: 25000,
+    category: "Freelance",
+    type: "income",
+    month: 6,
+    status: "completed",
+  },
 ];
 
 export const rawTransactions = rawData;
