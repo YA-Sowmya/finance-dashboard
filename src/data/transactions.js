@@ -1618,7 +1618,6 @@ const rawData = [
   month: 7,
   status: "completed",
 },
-},
 ];
 
 export const rawTransactions = rawData;
