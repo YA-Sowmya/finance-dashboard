@@ -1528,7 +1528,8 @@ const rawData = [
   type: "income",
   month: 6,
   status: "completed",
-    {
+},
+{
   id: 171,
   date: "2026-07-10",
   amount: 92000,
