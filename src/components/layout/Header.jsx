@@ -11,7 +11,7 @@ const pageTitles = {
 };
 
 const pageSubtitles = {
-  dashboard: (count) => `You have made ${count} transactions this month`,
+  dashboard: (count) => `You have made ${count} transactions this year`,
   transactions: () => "Manage and explore your financial activity",
   insights: () => "Understand your spending patterns and financial health",
 };
