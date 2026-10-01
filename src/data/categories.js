@@ -5,6 +5,7 @@ export const CATEGORIES = {
     dark: "#1a3a2a",
   },
   Freelance: {
+    
     color: "#42a4f5cc",
     light: "#E3F2FD",
     dark: "#1a2a3a",
