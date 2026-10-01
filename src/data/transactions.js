@@ -1954,15 +1954,7 @@ const rawData = [
     month: 10,
     status: "completed",
   },
-  {
-    id: 218,
-    date: "2026-10-15",
-    amount: 12500,
-    category: "Food & Dining",
-    type: "expense",
-    month: 10,
-    status: "completed",
-  },
+ 
 ];
 
 export const rawTransactions = rawData;
