@@ -1,10 +1,16 @@
 {
-  
-"redirects": [
-{
-"source": "https://finance-dashboard-noixkomg5-sowmyas-projects-52b1a0ff.vercel.app",
-"destination": "http://finance-dashboard-five-iota.vercel.app",
-"permanent": true
-}
-]
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "finance-dashboard-noixkomg5-sowmyas-projects-52b1a0ff.vercel.app"
+        }
+      ],
+      "destination": "http://vercel.app*",
+      "permanent": true
+    }
+  ]
 }
