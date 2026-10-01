@@ -23,5 +23,5 @@ const Button = ({
     </button>
   );
 };
-
+//updated
 export default Button;
